@@ -1,0 +1,4 @@
+fahrenheit_temperatures = [32, 68, 86, 104, 122]  
+celsius_temperatures = [(temp - 32) * 5 / 9 for temp in fahrenheit_temperatures]
+print("Fahrenheit temperatures:", fahrenheit_temperatures)
+print("Equivalent Celsius temperatures:", celsius_temperatures)
